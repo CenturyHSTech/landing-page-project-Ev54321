@@ -1,0 +1,70 @@
+body{
+    font-family: "Merriweather", serif;
+    margin: 0;
+    background-color: #1d4179;
+    color: #CDDBF9;
+}
+h1, h2{
+    font-family: "Karla", serif;
+    color: #D1DAE6;
+}
+nav {
+    background-color: #1d4179;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    border-bottom: 1px;
+}
+header{
+    background-image: url("Images/night-4489561_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: 25% 70%;
+    background-size:cover;
+    height: 300px;
+    padding: 2em;
+}
+header div{
+    max-width: 98%;
+    width: 30em;
+    padding: 1em;
+}
+figure{
+    margin: 0.5em;
+    border: solid;
+    border-color: #C5E6EC;
+    border-width: 8px;
+    border-radius: 10px;
+    padding: 0.5em;
+    width: 400px;
+    background-color: #122d59;
+    float: left;
+    box-shadow: 10px 15px 3px black;
+}
+figure img{
+    width: 400px;
+    height: 400px;
+}
+section{
+    width: 75vw;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer{
+    clear: both;
+}
+a:link{
+    color:#DEE4F7;
+}
+a:visited{
+    color:#DEE4F7;
+}
+a:hover{
+    color: #D2D8F9;
+}
